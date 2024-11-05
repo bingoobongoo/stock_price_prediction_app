@@ -10,39 +10,39 @@ Here are all the steps to run the project on your computer.
 
 Install `postgresql`:
 
-```bash
+```text
 sudo apt update
 sudo apt install postgresql postgresql-contrib
 ```
 
 Confirm the installation:
 
-```bash
+```text
 psql --version
 ```
 
 Give `postgres` user a password:
 
-```bash
+```text
 sudo passwd postgres
 ```
 
 Close and reopen terminal, then type:
 
-```bash
+```text
 sudo service postgresql start
 ```
 
 Now, when postgreSQL is installed, clone this repository:
 
-```bash
+```text
 git clone git@github.com:bingoobongoo/stock_price_prediction_app.git
 cd ./stock_price_prediction
 ```
 
 Install all required packages:
 
-```bash
+```text
 pip install -r requirements.txt
 ```
 
@@ -50,13 +50,13 @@ pip install -r requirements.txt
 
 Make sure you have stable network connection and run:
 
-```bash
+```text
 python3 main.py postgres <password> <databaseName>
 ```
 
 Additionally, you can also specify **port** on which postgreSQL is running (default is 5432):
 
-```bash
+```text
 python3 main.py postgres <password> <databaseName> <port>
 ```
 
