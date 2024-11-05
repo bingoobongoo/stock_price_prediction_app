@@ -37,7 +37,7 @@ Now, when postgreSQL is installed, clone this repository:
 
 ```text
 git clone git@github.com:bingoobongoo/stock_price_prediction_app.git
-cd ./stock_price_prediction
+cd ./stock_price_prediction_app
 ```
 
 Install all required packages:
