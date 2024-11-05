@@ -65,8 +65,8 @@ After this you can minimize the terminal window and wait until database is creat
 
 ## Database
 
-Database schema is saved as a ***nasdaq_companies.tar*** file. For more details about database (i.e entities, attributes and relationships) check the [***DATABASE.md***](DATABASE.md) file.
+Database schema is saved as a ***nasdaq_companies_backup.tar*** file. For more details about database (i.e entities, attributes and relationships) check the [***DATABASE.md***](DATABASE.md) file.
 
-> Note that the ***nasdaq_companies.tar*** file is just a schema for database. The actual data is downloaded using ***main.py*** script.
+> Note that the ***nasdaq_companies_backup.tar*** file is just a schema for database. The actual data is downloaded using ***main.py*** script.
 
 *Further information will be added.*
