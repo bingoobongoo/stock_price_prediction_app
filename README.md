@@ -36,7 +36,7 @@ sudo service postgresql start
 Now, when postgreSQL is installed, clone this repository:
 
 ```text
-git clone git@github.com:bingoobongoo/stock_price_prediction_app.git
+git clone https://github.com/bingoobongoo/stock_price_prediction_app.git
 cd ./stock_price_prediction_app
 ```
 
